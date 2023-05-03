@@ -1,0 +1,25 @@
+########################## hero area ##########################
+hero:
+  title: "I'm Julien Bertram"
+  # animated text loop
+  occupations:
+    - 'Web Developer'
+    - 'Sports lover'
+    - 'Traveler'
+
+  # hero background image
+  bg_image: 'images/fondecran.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/fondecran.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/profile.png'
+  title: 'THIS IS ME'
+  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
+  button:
+    enable: true
+    label: 'DOWNLOAD MY RESUME'
+    link: 'https://drive.google.com/file/d/1dhmvqL2WDQfT20Q1nLSSHsRo5ieMXOM7/view?usp=share_link'
+    icon: 'fa-download'
