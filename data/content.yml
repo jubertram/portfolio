@@ -4,13 +4,13 @@ hero:
   # animated text loop
   occupations:
     - 'Web Developer'
-    - 'Sports lover'
+    - 'Problem Solver'
     - 'World Traveler'
 
   # hero background image
   bg_image: 'images/fondecran.jpg'
   # optional mobile breakpoint background
-  # mobile_bg_image: 'images/fondecran.jpg'
+  mobile_bg_image: 'images/fondecran.jpg'
 
 ########################### About ##################################
 about:
@@ -20,10 +20,9 @@ about:
   content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
   button:
     enable: true
-    label: 'DOWNLOAD MY RESUME'
+    label: 'MY RESUME'
     link: 'https://drive.google.com/file/d/1dhmvqL2WDQfT20Q1nLSSHsRo5ieMXOM7/view?usp=share_link'
     icon: 'fa-download'
-
 
   ###########################3 Experience ##############################
 experience:
@@ -40,7 +39,38 @@ experience:
       duration: '2012-2020'
       content: Great professional experience where I did lot of different missions and learn a large panel of skills
 
-    - name: Pharmaceutical Salesman
-      company: South Coast Pharmaceuticals
-      duration: '2012-2018'
-      content: We are not bounty hunters, Shawn. I am a pharmaceutical salesman. And Lassiter made it very clear! He said in no uncertain terms. These are certain terms, Shawn! Certain terms!
+
+
+############################### Skill #################################
+skill:
+  enable: true
+  title: 'SOME SKILLS'
+  showpercent: false
+  skill_list:
+    - name: 'Learn Ability'
+      percentage: '90%'
+
+    - name: 'Teamwork'
+      percentage: '70%'
+
+    - name: 'Ruby'
+      percentage: '60%'
+
+    - name: 'Javascript'
+      percentage: '50%'
+
+######################### funfacts #############################3
+funfacts:
+  enable: true
+  funfacts_list:
+    - name: 'CUPS PER DAY'
+      image: 'images/icons/coffee.png'
+      count: '3'
+
+    - name: 'PROJECTS REALIZED'
+      image: 'images/icons/web-development.png'
+      count: '5'
+
+    - name: 'ONGOING'
+      image: 'images/icons/works.png'
+      count: '2'
