@@ -4,7 +4,7 @@ hero:
   # animated text loop
   occupations:
     - 'Web Developer'
-    - 'Problem Solver'
+    - 'Problems Solver'
     - 'World Traveler'
 
   # hero background image
@@ -15,9 +15,9 @@ hero:
 ########################### About ##################################
 about:
   enable: true
-  image: 'images/profile.png'
-  title: 'THIS IS ME'
-  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
+  image: 'images/avataaars.png'
+  title: 'ABOUT ME'
+  content: Hi, I am a calm, rigorous and passionated Junior Web Developer. I am open to work. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
   button:
     enable: true
     label: 'MY RESUME'
@@ -29,6 +29,11 @@ experience:
   enable: true
   title: 'EXPERIENCE'
   experience_list:
+    - name: Web Developer
+      company: Le Wagon Nice
+      duration: 'October to December 2022'
+      content: I followed a Full-time 9-week intensive coding bootcamp to learn HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails.
+
     - name: International Solidarity Volunteering
       company: Enfants du Mekong
       duration: '2021-2022'
@@ -74,3 +79,24 @@ funfacts:
     - name: 'ONGOING'
       image: 'images/icons/works.png'
       count: '2'
+
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'MY WORK'
+  portfolio_list:
+    - name: Tracer
+      image: "images/portfolio/tracer1.png"
+      url: https://www.tracerrr.xyz/
+      description: Tracer is a web application to allow Parkour practitioners to find places where to do this sport, with the possible movements according to these places. This is the final project I did at the end of my Bootcamp. We were 4 to work 8 days on this project. I was the team leader in charge of the overall management of the project as well as its production on Heroku. I mainly worked on the back end and on the mapbox integration. We used HTML, CSS, Javascript, StimulusJS, Ruby/Rails, Mapbox, Cloudinary, and Heroku.
+
+    - name: Hotel'low
+      image: "images/portfolio/hotel'lo2.png"
+      url: https://www.garden-manager-jber.store/
+      description: This is the project I had to do during my exam for the French certification 'Designer / web application Developer'. The challenge was to realize a website to rent cheap Hotel rooms. I completed this project, alone, in 8 hours. I used CSS, HTML, Ruby/Rails, PostgreSQL and Heroku.
+
+    - name: Rentaru Furendo
+      image: 'images/portfolio/rentaru furendo.png'
+      url: https://www.garden-manager-jber.store/
+      description: End of Bootcamp training project done before the final project. There were 4 of us on the project and we had 8 days to complete it.The challenge was to create a rental site and we had to choose the subject to rent. We decided to make a rental of friends.I personally worked on the backend part with the integration of a map with Mapbox. We used HTML, CSS, Javascript, Stimulus JS, Mapbox, PostgreSQL, Cloudinary and Heroku for this project.

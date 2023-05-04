@@ -36,7 +36,7 @@ link = "plugins/hugrid/hugrid.min.js"
 # main menu
 [[menu.main]]
 name = "Home"
-URL = "#home"
+URL = "#header"
 weight = 1
 
 [[menu.main]]
@@ -52,13 +52,13 @@ weight = 3
 
 #################### default parameters ################################
 [params]
-logo_light = "images/logo.svg"
-logo_dark = "images/logo-dark.svg"
+logo_light = "images/JB-1 (2).png"
+logo_dark = "images/JB-1 (4).png"
 copyright = "Copyright Julien Bertram &copy;"
 # Meta data
 description = "Personal Portfolio"
 author = "Julien Bertram"
-favicon = "images/favicon.png"
+favicon = "images/JB-1.png"
 google_analytics = "G-ABCDEFG123"
 
 
@@ -75,15 +75,11 @@ link = "https://github.com/jubertram"
 
 [[params.social]]
 icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/"
+link = "https://www.linkedin.com/in/julien-bertram/"
 
 [[params.social]]
 icon = "fas fa-envelope"
-link = "mailto:guster@burton.com"
-
-[[params.social]]
-icon = "fab fa-medium"
-link = "https://medium.com/@gusburton"
+link = "mailto:bertramjulien@gmail.com"
 
 contentDir = "content/english"
 weight = 1
