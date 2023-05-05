@@ -1,4 +1,4 @@
-baseURL = 'http://julien-bertram.org/'
+baseURL = 'http://jubertram.github.io/portfolio/'
 languageCode = 'en-us'
 title = 'Julien Bertram'
 theme = "port-hugo"
